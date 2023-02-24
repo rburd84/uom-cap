@@ -1,0 +1,12 @@
+{
+  "name": "cap-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx serve -p 5500 & sass --watch stylesheets/scss/main.scss stylesheets/css/style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./stylesheets/css/style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <title>Web Design for Everybody</title>
+</head>
+<body>
+  <header id="home">
+    <nav>
+      <div class="logo-img">
+        <img src="./images/logo.png" alt="logo" id="logo">
+      </div>
+      <ul class="nav-list">
+        <li><a href="#home"><i class='bx bx-home'></i>Home</a></li>
+        <li><a href="#courses"><i class='bx bxs-graduation' ></i>Courses</a></li>
+        <li><a href="#instructors"><i class='bx bxs-user-circle' ></i>Instructors</a></li>
+        <li><a href="#register"><i class='bx bx-user-plus'></i>Register</a></li>
+      </ul>
+      <div class="menu-burger">
+        <img src="./images/menu hamburger.png" alt="hamburger" id="hamburger">
+      </div>
+      <div class="close">
+        <svg width="75" height="75" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M27 14.6053L25.59 13.1953L20 18.7853L14.41 13.1953L13 14.6053L18.59 20.1953L13 25.7853L14.41 27.1953L20 21.6053L25.59 27.1953L27 25.7853L21.41 20.1953L27 14.6053Z" fill="#686B6F"/>
+        </svg>
+      </div>
+    </nav>
+    <div class="header">
+      <div class="text">
+        <h1 class="header-title">Web Design for Everybody</h1>
+        <h3 class="header-sub-title">Basics of Web Development & Coding</h3>
+        <p class="course-desc">Learn to Design and Create Websites. Build a responsive and accessible web portfolio using HTML5, CSS3, and JavaScript</p>
+      </div>
+      <div class="sign-up">
+        <h2 class="sign-text">Register Today</h2>
+        <button><a href="#register">Register</a></button>
+      </div>
+
+    </div>
+  </header>
+  <section class="courses" id="courses">
+    <h2 class="section-title">Courses</h2>
+    <div class="course-list">
+      <div class="course">
+        <div class="course-img">
+          <img src="https://picsum.photos/350" alt="course-img">
+        </div>
+        <div class="course-text">
+          <h4 class="course-title">Course #1</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate ab quae vitae, laboriosam accusantium nemo debitis blanditiis quam repudiandae, unde architecto! Dicta iusto laudantium distinctio?</p>
+        </div>
+      </div>
+      <div class="course">
+        <div class="course-img">
+          <img src="https://picsum.photos/350" alt="course-img">
+        </div>
+        <div class="course-text">
+          <h4 class="course-title">Course #2</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate ab quae vitae, laboriosam accusantium nemo debitis blanditiis quam repudiandae, unde architecto! Dicta iusto laudantium distinctio?</p>
+        </div>
+      </div>
+      <div class="course">
+        <div class="course-img">
+          <img src="https://picsum.photos/350" alt="course-img">
+        </div>
+        <div class="course-text">
+          <h4 class="course-title">Course #3</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate ab quae vitae, laboriosam accusantium nemo debitis blanditiis quam repudiandae, unde architecto! Dicta iusto laudantium distinctio?</p>
+        </div>
+      </div>
+      <div class="course">
+        <div class="course-img">
+          <img src="https://picsum.photos/350" alt="course-img">
+        </div>
+        <div class="course-text">
+          <h4 class="course-title">Course #4</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate ab quae vitae, laboriosam accusantium nemo debitis blanditiis quam repudiandae, unde architecto! Dicta iusto laudantium distinctio?</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="register" id="register">
+    <h2 class="section-title">Register</h2>
+    <form action="/" id="register-form" class="register-form" method="post">
+      <div class="form-header">
+        <h3 class="form-title">Enroll Today</h3>
+        <p class="form-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, sit.</p>
+      </div>
+      <div class="form-name">
+        <label for="name" class="form-label">Name</label>
+        <input type="text" class="form-input" id="name" name="name" placeholder="Enter your name">
+        <small>Error message</small>
+      </div>
+      <div class="form-email">
+        <label for="email" class="form-label">Email</label>
+        <input type="text" class="form-input" id="email" name="email" placeholder="Enter your email">
+        <small>Error message</small>
+      </div>
+      <div class="form-password1">
+        <label for="password1" class="form-label">Password</label>
+        <input type="password" class="form-input" id="password1" name="password1" placeholder="Create a password">
+        <small>Error message</small>
+      </div>
+      <div class="form-password2">
+        <label for="password2" class="form-label">Confirm Password</label>
+        <input type="password" class="form-input" id="password2" name="password2" placeholder="Confirm password">
+        <small>Error message</small>
+      </div>
+      <button class="form-btn" type="submit">Enroll</button>
+      <p class="form-login">Already have an account? <a href="#">Login</a></p>
+    </form>
+  </section>
+  <section class="instructors" id="instructors">
+    <h2 class="section-title">Instructors</h2>
+    <div class="instructor-group">
+      <div class="instructor">
+        <div class="instructor-img">
+          <img src="./images/Icon.png" alt="instructor-img">
+        </div>
+        <div>
+          <p class="instructor-name">Instructor Name</p>
+        </div>
+      </div>
+      <div class="instructor">
+        <div class="instructor-img">
+          <img src="./images/Icon.png" alt="instructor-img">
+        </div>
+        <div>
+          <p class="instructor-name">Instructor Name</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="testimonial">
+    <h2 class="section-title">Testimonials</h2>
+    <div class="slider">
+      <div class="slide">
+        <img src="http://via.placeholder.com/125" alt="placeholder">
+        <div class="slide-text">
+          <h3 class="slide-title">Testimonial #1</h3>
+          <p class="slide-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus reiciendis autem ipsam vitae ipsa laudantium modi aliquid fugit suscipit illo.</p>
+        </div>
+      </div>
+      <div class="slide">
+        <img src="http://via.placeholder.com/125" alt="placeholder">
+        <div class="slide-text">
+          <h3 class="slide-title">Testimonial #2</h3>
+          <p class="slide-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus reiciendis autem ipsam vitae ipsa laudantium modi aliquid fugit suscipit illo.</p>
+        </div>
+      </div>
+      <div class="slide">
+        <img src="http://via.placeholder.com/125" alt="placeholder">
+        <div class="slide-text">
+          <h3 class="slide-title">Testimonial #3</h3>
+          <p class="slide-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus reiciendis autem ipsam vitae ipsa laudantium modi aliquid fugit suscipit illo.</p>
+        </div>
+      </div>
+      <div class="slide">
+        <img src="http://via.placeholder.com/125" alt="placeholder">
+        <div class="slide-text">
+          <h3 class="slide-title">Testimonial #4</h3>
+          <p class="slide-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus reiciendis autem ipsam vitae ipsa laudantium modi aliquid fugit suscipit illo.</p>
+        </div>
+      </div>
+      <!-- <span class="slide-btns"> -->
+        <i class='bx bx-left-arrow-alt bx-fade-left bx-lg' ></i>
+        <i class='bx bx-right-arrow-alt bx-fade-right bx-lg' ></i>
+        <!-- <i class='bx bxs-like bx-fade-right bx-md' ></i> -->
+        <!-- <i class='bx bxs-like bx-fade-left bx-md' ></i> -->
+      <!-- </span> -->
+    </div>
+  </section>
+  <footer>Burd Dev Group &copy; 2023</footer>
+  <script src="./js/index.js" type="module"></script>
+</body>
+</html>
